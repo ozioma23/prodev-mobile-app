@@ -2,7 +2,7 @@ import { View, Text, TextInput, Pressable, Image } from "react-native";
 import { styles } from "@/styles/_join";
 import { useRouter } from "expo-router";
 
-export default function ignin() {
+export default function signin() {
   const router = useRouter();
 
   return (
@@ -18,7 +18,7 @@ export default function ignin() {
           <TextInput style={styles.formControl} />
         </View>
 
-        <View>
+       <View>
           <Text style={styles.formLabel}>Password</Text>
           <TextInput style={styles.formControl} secureTextEntry />
         </View>
