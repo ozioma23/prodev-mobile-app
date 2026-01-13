@@ -1,5 +1,5 @@
 import { View, Text, TextInput, Pressable } from "react-native";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { useRouter } from "expo-router";
 
 export default function Join() {
