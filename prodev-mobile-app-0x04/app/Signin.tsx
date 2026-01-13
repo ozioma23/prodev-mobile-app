@@ -2,7 +2,7 @@ import { View, Text, TextInput, Pressable, Image } from "react-native";
 import { styles } from "@/styles/_join";
 import { useRouter } from "expo-router";
 
-export default function Signin() {
+export default function ignin() {
   const router = useRouter();
 
   return (
